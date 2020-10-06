@@ -45,12 +45,12 @@
 						header('Location: saldo.php');
 						
 
-					}elseif ($anoDeHoje - $retorno[0] == 18 && $mesDeHoje - $retorno[1] > 18) {
+					}elseif ($anoDeHoje - $retorno[0] == 18 && $mesDeHoje - $retorno[1] > 0) {
 						
 						setcookie('txtPassado',"./Arquivos texto/".$cont.".txt" , time()+240);
 						header('Location: saldo.php');
 
-					}elseif ($anoDeHoje - $retorno[0] == 18 && $mesDeHoje - $retorno[1] == 18 && $diaDeHoje - $reorno[2] >= 18 ) {
+					}elseif ($anoDeHoje - $retorno[0] == 18 && $mesDeHoje - $retorno[1] == 10 && $diaDeHoje - $reorno[2] >= 10 ) {
 						
 						setcookie('txtPassado',"./Arquivos texto/".$cont.".txt" , time()+240);
 						header('Location: saldo.php');
